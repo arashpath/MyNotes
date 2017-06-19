@@ -1,0 +1,15 @@
+= Git =
+{{{
+git config --global user.name "Prashaath R."
+git config --global user.email arashpath@gmail.com
+git config --global core.editor vim
+git config --global merge.tool vimdiff
+git init
+git add *.wiki
+git commit -m 'Initial Commit'
+git remote add origin git@github.com:arashpath/MyNotes.git
+git remote set-url origin https://github.com/arashpath/MyNotes.git
+git push -u origin master
+       
+     
+}}}

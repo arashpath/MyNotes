@@ -1,0 +1,81 @@
+= SoloLzarn Python3 =
+
+== 1. Basic Concepts ==
+- Module 1: 
+
+=== 1. What is Python ===
+- Cpython, Python 3.x
+- An interpreter is a program that runs scripts written in an interpreted language such as Python.
+		 
+=== 2. Your First Program ===
+{{{python
+print ('Hello World!')
+}}}
+ 
+=== 3. Simple Operation ===
+- `+` addition; `-` subtraction; `*` Multiplication; `/` Division (*float*);
+- In Python, the last line of an error message indicates the error's type.
+{{{python
+11/0
+'ZeroDivisionError: division by Zero'
+}}}
+
+=== 4. Floats ===
+- A float is also produced by running an operation on two floats, or on a float and an integer.
+  
+=== 5. Other Numerical Operation ===
+- Exponential 
+{{{python
+2**5 
+ 32
+9**(1/2)
+ 3
+}}}
+- Quotient & Remainder
+- To determine the *quotient* and *remainder* of a division, 
+use the *floor division* `//` and *modulo* `%` operators, respectively.
+{{{python
+20//6
+ 3
+1.25 % 0.5
+0.25
+}}}
+
+=== 6. Siring Operations ===
+- Two single or double quotation marks `'` `"`
+- Backslash can be used to escape `\'` `\"`
+- Multiline string use `\n` or `'''` or `"""`
+
+=== 7. Sample Input & Output ===
+- for Output `print("Hello\nWorld!")`
+- for Input `input("Enter Something please: ")`
+  - The function returns what they enter as a string (with the contents automatically escaped)  
+
+=== 8. String Operations ===
+- Concatenation 
+  {{{python
+  print ("First string"+','+'Second string')
+  }}}
+- Adding string to a number produces error `1 + '2'`
+- use `*` to repeat print.
+  {{{python
+  print ("spam"*3)
+  }}}
+- we must use whole no and not decimals `'eggs' * 7.5` will give error
+
+=== 9. Type Conversion ===
+- integers `int`; floats `float`; and strings `stg`
+
+=== 10. Variables ===
+- Python variable names are case sensitive. Only letters, numbers, and underscores allowed 
+  and they can't start with numbers. Use `del` to remove a variable. 
+
+=== 11. In-Place Operators ===
+- `x = x + 3` => `x += 3` same is possible for `-,*,/ and %` as well.
+ 
+12. Using an Editor
+- IDLE *Ctrl+N*: New File; *Ctrl+S*: Save File; *F5* Runs the complete Code
+
+== Control Structures ==
+=== Booleans & Compariosons ===
+
